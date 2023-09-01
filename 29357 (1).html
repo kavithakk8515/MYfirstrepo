@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="/css/main.css?id=f8ff9da2f79d69c3ed12">
+    <link rel="icon" href="data:,">
+    <title>UCMAS NLC 2023 Exam Portal</title>
+    <script>
+        window.siteUrl = "https://nlc.bysrireina.com"
+        window.video_url = "NONEED"
+        window.exam_slots_finalized = 0
+        window.loginstatus = '1'
+        window.parent_name_is_email = false
+        window.available_languages = 'English'
+        window.timer_fixed = 0
+        window.camera_enabled = 1
+        window.login_provider = 'database'
+
+                    window.oauth_home = 'NA';
+            window.oauth_provider_name = 'NA';
+        
+                    window.loginname = 'A. Charvitha'
+            window.loginemail = 'NLC2300856'
+            window.loginrole = 'student'
+            window.current_language = 'English'
+            </script>
+    <style>
+        .main-nav a {
+            color: #ffffff !important;
+        }
+
+        .main-nav a.active {
+            color: #ffffff !important;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+<div class="flex flex-wrap" id="app">
+    <nav class="w-full px-4 md:h-24 sm:h-16 main-nav block flex items-center justify-between flex-wrap shadow-md" style="background: #2e368f;">
+        <div class="container mx-auto">
+            <div class="flex">
+                <div class="md:w-1/2 w-2/6 py-6 md:py-5">
+                    <p onclick="window.location='/'" class="text-white cursor-pointer inline-block align-middle" style="background: #2e368f;">
+                                                    <img src="https://nlc.bysrireina.com/images/nlc23logo.png" style="max-height:100px" alt="UCMAS NLC 2023 Exam Portal"/>
+                                            </p>
+                </div>
+                <div class="md:w-1/2 w-4/6">
+                    <ul class="flex float-right md:pt-8">
+                        <li><router-link to="/" v-if="false" class="md:pl-6 md:pr-6 md:inline md:py-10 px-2 inline-block py-6 cursor-pointer">Home</router-link></li>
+                        <li><router-link to="/login" v-if="!loggedin" class="md:pl-6 md:pr-6 md:inline md:py-10 px-2 inline-block py-6 cursor-pointer">Login</router-link></li>
+
+                        <li><a href="/dashboard" v-if="loggedin" class="md:pl-6 md:pr-6 md:inline md:py-10 px-2 inline-block py-6 cursor-pointer">Dashboard</a></li>
+                                                    <li><a href="/performance_snapshot" v-if="loggedin" class="md:pl-6 md:pr-6 md:inline md:py-10 px-2 inline-block py-6 cursor-pointer">Performance Snapshot</a></li>
+                                                
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <router-view class="flex flex-wrap w-full container mx-auto pt-5  mt-1"></router-view>
+    <div class="mt-10 w-full container mx-auto pb-24">
+        <hr>
+        <a href="https://www.srireina.com" target="_blank"> <img src="https://nlc.bysrireina.com/logo-srireina.png" class="h-12 float-right" /></a>
+        <p>Developed and Maintained by <a href="https://www.srireina.com" target="_blank">Srireina Technologies</a></p>
+    </div>
+</div>
+    <script type="application/javascript" src="/js/manifest.js?id=3c768977c2574a34506e"></script>
+    <script type="application/javascript" src="/js/vendor.js?id=d9a4d2881f134b8cec74"></script>
+    <script type="application/javascript" src="/js/app.js?id=f87e23e4968cede7aa66"></script>
+</body>
+</html>
